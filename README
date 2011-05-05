@@ -1,0 +1,11 @@
+The example was tested with Glassfish 3.0.1. Before deploying the application, database resources must be setup correctly.
+
+1) Create a connection pool with the following properties:
+Pool name: mygourmet-derby-pool
+Resource type: javax.sql.DataSource
+Datasource classname: org.apache.derby.jdbc.EmbeddedDataSource
+Additional Property: DatabaseName=memory:mygourmet;create=true
+
+2) Create a JDBC resource
+JNDI name: jdbc/mygourmet
+Pool name: mygourmet-derby-pool
