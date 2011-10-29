@@ -7,14 +7,14 @@ import org.apache.myfaces.extensions.cdi.jsf.api.config.view.PageBean;
 
 @PageBean(AddCustomerBean.class)
 @Page(basePath = "")
-public abstract class AddCustomerWizard implements ViewConfig {
+public interface AddCustomerWizard extends ViewConfig {
 
     @Page
-    public final class AddCustomer1 extends AddCustomerWizard {
+    public final class AddCustomer1 implements AddCustomerWizard {
     }
 
     @Page
-    public final class AddCustomer2 extends AddCustomerWizard {
+    public final class AddCustomer2 implements AddCustomerWizard {
     }
 
 }
