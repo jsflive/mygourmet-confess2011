@@ -32,7 +32,7 @@
                     <h:inputText id="country" size="30" maxlength="40"
                         value="#{addCustomerBean.address.country}"/>
 				</h:panelGrid>
-				<h:commandButton id="previous" action="/addCustomer1.xhtml" value="#{msgs.previous}"/>
+				<h:commandButton id="previous" action="#{addCustomerBean.goToStep1}" value="#{msgs.previous}"/>
 				<h:commandButton id="save" action="#{addCustomerBean.save}" value="#{msgs.save}"/>
 				<h:commandButton id="cancel" value="#{msgs.cancel}" action="#{addCustomerBean.cancel}" immediate="true"/>
 			</h:form>

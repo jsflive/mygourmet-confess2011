@@ -30,6 +30,10 @@ public class AddCustomerBean extends CustomerBeanBase {
         }
     }
 
+    public Class<? extends ViewConfig> goToStep1() {
+        return AddCustomerWizard.AddCustomer1.class;
+    }
+
     public Class<? extends ViewConfig> goToStep2() {
         return AddCustomerWizard.AddCustomer2.class;
     }
