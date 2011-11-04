@@ -71,15 +71,6 @@
                         <target>1.5</target>
                     </configuration>
                 </plugin>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-eclipse-plugin</artifactId>
-                    <version>2.5</version>
-                    <configuration>
-                        <wtpversion>1.5</wtpversion>
-                        <downloadSources>true</downloadSources>
-                    </configuration>
-                </plugin>
             </plugins>
         </pluginManagement>
     </build>
