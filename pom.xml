@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>at.irian.jsfatwork</groupId>
-    <artifactId>mygourmet-fullstack</artifactId>
+    <artifactId>mygourmet-fullstack-ee</artifactId>
     <version>1.0.3</version>
     <packaging>pom</packaging>
     <name>JavaServer Faces 2.0 - MyGourmet Fullstack</name>
